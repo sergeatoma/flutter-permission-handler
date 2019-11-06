@@ -14,6 +14,7 @@
 #import "PhotoPermissionStrategy.h"
 #import "UnknownPermissionStrategy.h"
 #import "PermissionHandlerEnums.h"
+#import "ContactPermissionStrategy.h"
 #import "Codec.h"
 
 typedef void (^PermissionRequestCompletion)(NSDictionary *permissionRequestResults);

@@ -75,6 +75,8 @@
 
 + (id)createPermissionStrategy:(PermissionGroup)permission {
     switch (permission) {
+            case PermissionGroupContacts:
+                return [ContactPermissionStrategy new];
             case PermissionGroupCamera:
             return [AudioVideoPermissionStrategy new];
             case PermissionGroupMicrophone:
